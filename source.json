@@ -1,0 +1,30 @@
+{
+  "name": "RideEyes",
+  "identifier": "com.aptenter.rideeyes.source",
+  "subtitle": "August's ride offer eyes",
+  "description": "Reads every Uber and Lyft offer on the screen, prices it at true dollars per hour and per mile, says take it or skip it.",
+  "sourceURL": "https://raw.githubusercontent.com/AugustPT/ride-eyes-source/main/source.json",
+  "apps": [
+    {
+      "name": "RideEyes",
+      "bundleIdentifier": "com.aptenter.rideeyes",
+      "developerName": "August Turner",
+      "subtitle": "Take it or skip it, before the window closes.",
+      "localizedDescription": "Start a shift, open Uber or Lyft, and every offer card gets read on the phone and priced at its true rate. Shadow mode logs the verdicts; coach mode says them out loud.",
+      "iconURL": "https://raw.githubusercontent.com/AugustPT/ride-eyes-source/main/icon.png",
+      "tintColor": "#1D9E75",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "0.1.5",
+          "date": "2026-10-02T04:37:36Z",
+          "localizedDescription": "Build 5 from commit fcea26a.",
+          "downloadURL": "https://raw.githubusercontent.com/AugustPT/ride-eyes-source/main/RideEyes.ipa",
+          "size": 363534,
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": { "entitlements": ["com.apple.security.application-groups"], "privacy": {} }
+    }
+  ]
+}
